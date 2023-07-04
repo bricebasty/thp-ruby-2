@@ -1,10 +1,10 @@
 puts "Ecris ton année de naissance (AAAA)"
 print "> "
-user_birth = gets.chomp.to_i
+user_birthdate = gets.chomp.to_i
 user_age = 0
 
-until user_birth > date = 2023
-  puts "Ton âge en #{user_birth} : #{user_age} an(s)"
-  user_birth += 1
+until user_birthdate > 2023
+  puts "Ton âge en #{user_birthdate} : #{user_age} an(s)"
+  user_birthdate += 1
   user_age += 1
 end
