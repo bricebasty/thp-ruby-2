@@ -1,8 +1,8 @@
 puts "Ecris ton année de naissance (AAAA)"
 print "> "
-user_birth = gets.chomp.to_i
+user_birthdate = gets.chomp.to_i
 
-until user_birth > date = 2023
-  puts "#{user_birth}"
-  user_birth += 1
+until user_birthdate > 2023
+  puts "#{user_birthdate}"
+  user_birthdate += 1
 end
